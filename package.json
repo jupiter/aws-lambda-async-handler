@@ -1,0 +1,25 @@
+{
+  "name": "aws-lambda-async-handler",
+  "version": "0.1.0",
+  "description": "Use async functions for your AWS Lambda handlers",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jupiter/aws-lambda-async-handler.git"
+  },
+  "author": "Pieter Raubenheimer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jupiter/aws-lambda-async-handler/issues"
+  },
+  "homepage": "https://github.com/jupiter/aws-lambda-async-handler#readme",
+  "devDependencies": {
+    "@types/aws-lambda": "0.0.31",
+    "typescript": "^2.7.1"
+  }
+}
